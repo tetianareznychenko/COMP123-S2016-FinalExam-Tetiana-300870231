@@ -20,5 +20,11 @@ namespace COMP123_S2016_FinalExam_Tetiana_300870231
         public string Charisma { get; set; }
 
         public string Race { get; set; }
+
+        //Add FirstName and LastName properties
+
+        public string FirstName { get; set; }
+
+        public string LastName { get; set; }
     }
 }

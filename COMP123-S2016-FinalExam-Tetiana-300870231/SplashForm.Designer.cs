@@ -35,6 +35,7 @@
             // timerSplashScreen
             // 
             this.timerSplashScreen.Interval = 3000;
+            this.timerSplashScreen.Tick += new System.EventHandler(this.timerSplashScreen_Tick);
             // 
             // SplashForm
             // 
@@ -49,6 +50,7 @@
             this.Name = "SplashForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashForm";
+            this.Load += new System.EventHandler(this.SplashForm_Load);
             this.ResumeLayout(false);
 
         }
